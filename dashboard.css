@@ -1,0 +1,184 @@
+body {
+    background-color: #2b2b2b;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #2b2b2b !important;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: #fff !important;
+    padding: 0.8rem 1.5rem !important;
+    border-radius: 6px;
+    margin: 0 0.3rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.nav-link.active {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-logout:hover {
+    background-color: #bb2d3b;
+    color: #fff;
+}
+
+/* Table Styles */
+.table {
+    color: #fff;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.table thead th {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    border: none;
+    padding: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr {
+    background-color: #2b2b2b;
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #383838;
+}
+
+.table td {
+    border-color: #444;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.action-btn {
+    padding: 8px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s ease;
+}
+
+.btn-view {
+    background-color: #0dcaf0;
+}
+
+.btn-view:hover {
+    background-color: #0bacce;
+    color: #fff;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+    color: #fff;
+}
+
+.btn-add {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    border: none;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+}
+
+/* Form Styles */
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    color: #212529;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.btn-submit {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+    border: none;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal-header {
+    border-bottom-color: #444;
+}
+
+.modal-footer {
+    border-top-color: #444;
+}
+
+/* Client Details Styles */
+.client-details {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.detail-row {
+    border-bottom: 1px solid #444;
+    padding: 1rem 0;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.detail-value {
+    color: #fff;
+}
